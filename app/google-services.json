@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "248174463265",
+    "project_id": "quickyes-project1",
+    "storage_bucket": "quickyes-project1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248174463265:android:6dd3a1ceca1900542c1660",
+        "android_client_info": {
+          "package_name": "com.example.quickyes_project1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248174463265-l51rl7tbift7mme6qgfegv0s4djtnca9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM-LaIFUOTGxvLIMFZP5Uq8acjKuTkT0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248174463265-l51rl7tbift7mme6qgfegv0s4djtnca9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

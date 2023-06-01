@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addreports">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/reportnameaddproduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Report Name"
+        android:fontFamily="serif"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textSize="14dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/enter_report_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="Report Name:"
+        android:layout_alignTop="@+id/reportnameaddproduct"
+        android:textSize="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BAFFFFFC"
+            android:inputType="textPersonName"
+            android:singleLine="false"
+            android:textSize="10dp"
+            android:textStyle="normal|italic"></com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:id="@+id/reportdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Report Name"
+            android:fontFamily="serif"
+            android:layout_marginTop="90dp"
+            android:textStyle="bold"
+            android:layout_alignTop="@+id/enter_report_name"
+            android:layout_marginLeft="10dp"
+            android:textSize="14dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/enter_acadamicyear"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="Acadamic Year:"
+            android:layout_alignTop="@+id/reportdetails"
+            android:textSize="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:background="#BAFFFFFC"
+                android:inputType="number"
+                android:singleLine="false"
+                android:textSize="10dp"
+                android:textStyle="normal|italic"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/enter_classanddiv"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="Class And Division:"
+            android:layout_marginLeft="150dp"
+            android:layout_alignLeft="@+id/enter_acadamicyear"
+            android:layout_alignTop="@+id/reportdetails"
+            android:textSize="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:background="#BAFFFFFC"
+                android:inputType="textPersonName"
+                android:singleLine="false"
+                android:textSize="10dp"
+                android:textStyle="normal|italic"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/enter_nameofprogram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:hint="Name Of Program:"
+            android:layout_alignTop="@+id/enter_acadamicyear"
+            android:textSize="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#BAFFFFFC"
+                android:inputType="textPersonName"
+                android:singleLine="false"
+                android:textSize="10dp"
+                android:textStyle="normal|italic"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/enter_nameofactivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:hint="Name Of Activity:"
+            android:layout_alignTop="@+id/enter_nameofprogram"
+            android:textSize="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#BAFFFFFC"
+                android:inputType="textPersonName"
+                android:singleLine="false"
+                android:textSize="10dp"
+                android:textStyle="normal|italic"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/enter_activitycodinator"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:hint="Name Of Activity Codinator"
+            android:layout_alignTop="@+id/enter_nameofactivity"
+            android:textSize="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:background="#BAFFFFFC"
+                android:inputType="textPersonName"
+                android:singleLine="false"
+                android:textSize="10dp"
+                android:textStyle="normal|italic"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/enter_studentcodinator"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:hint="Name Of Student Codinator:"
+            android:layout_marginLeft="180dp"
+            android:layout_alignLeft="@+id/enter_activitycodinator"
+            android:layout_alignTop="@+id/enter_nameofactivity"
+            android:textSize="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:background="#BAFFFFFC"
+                android:inputType="textPersonName"
+                android:singleLine="false"
+                android:textSize="10dp"
+                android:textStyle="normal|italic"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/enter_nameandadressofexperts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:hint="Name and Address Of Expert Guest/Industry Person"
+            android:layout_alignTop="@+id/enter_activitycodinator"
+            android:textSize="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#BAFFFFFC"
+                android:inputType="textPersonName"
+                android:singleLine="false"
+                android:textSize="10dp"
+                android:textStyle="normal|italic"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/enter_date"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:hint="Date Of Conduction"
+            android:layout_alignTop="@+id/enter_nameandadressofexperts"
+            android:textSize="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:background="#BAFFFFFC"
+                android:inputType="date"
+                android:singleLine="false"
+                android:textSize="10dp"
+                android:textStyle="normal|italic"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/enter_totalbeneficiaries"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:hint="Total Baneficiaries"
+            android:layout_marginLeft="180dp"
+            android:layout_alignLeft="@+id/enter_date"
+            android:layout_alignTop="@+id/enter_nameandadressofexperts"
+            android:textSize="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:background="#BAFFFFFC"
+                android:inputType="number"
+                android:singleLine="false"
+                android:textSize="10dp"
+                android:textStyle="normal|italic"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/enter_co"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:hint="CO:"
+            android:layout_alignTop="@+id/enter_date"
+            android:layout_alignRight="@+id/enter_po"
+            android:layout_marginRight="150dp"
+            android:textSize="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="#BAFFFFFC"
+                android:inputType="textPersonName"
+                android:singleLine="false"
+                android:textSize="10dp"
+                android:textStyle="normal|italic"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/enter_po"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_centerHorizontal="true"
+            android:hint="PO"
+            android:layout_alignTop="@+id/enter_date"
+            android:textSize="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="#BAFFFFFC"
+                android:inputType="textPersonName"
+                android:singleLine="false"
+                android:textSize="10dp"
+                android:textStyle="normal|italic"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/enter_pso"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:hint="PSO"
+            android:layout_alignTop="@+id/enter_date"
+            android:layout_alignLeft="@+id/enter_po"
+            android:layout_marginLeft="150dp"
+            android:textSize="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="#BAFFFFFC"
+                android:inputType="textPersonName"
+                android:singleLine="false"
+                android:textSize="10dp"
+                android:textStyle="normal|italic"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/enter_activityshortdescription"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="70dp"
+            android:hint="Activities Report"
+            android:layout_alignTop="@+id/enter_po"
+            android:textSize="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#BAFFFFFC"
+                android:inputType="textPersonName"
+                android:singleLine="false"
+                android:textSize="10dp"
+                android:textStyle="normal|italic"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Photos"
+            android:fontFamily="serif"
+            android:layout_marginTop="120dp"
+            android:textStyle="bold"
+            android:layout_alignTop="@+id/enter_activityshortdescription"
+            android:layout_marginLeft="10dp"
+            android:textSize="14dp"/>
+
+        <ImageView
+            android:id="@+id/photo1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#EAE4E4"
+            android:layout_marginTop="50dp"
+            android:layout_alignTop="@+id/photo"
+            android:layout_marginRight="130dp"
+            android:layout_alignRight="@+id/productimage2"
+            />
+        <ImageView
+            android:id="@+id/photo2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#EAE4E4"
+            android:layout_marginTop="50dp"
+            android:layout_alignTop="@+id/photo"
+            android:layout_centerHorizontal="true"
+            />
+        <Button
+            android:id="@+id/selectimageaddreport1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:layout_marginRight="150dp"
+            android:layout_alignRight="@+id/selectimageaddreport2"
+            android:text="Select Image"
+            android:layout_alignTop="@+id/photo2"
+            android:textSize="9dp"
+            />
+
+        <Button
+            android:id="@+id/selectimageaddreport2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/photo2"
+            android:layout_marginLeft="20dp"
+            android:text="Select Image"
+            android:textSize="9dp"
+            android:layout_marginTop="130dp"
+            android:layout_centerHorizontal="true"/>
+<Button
+    android:id="@+id/submit_report"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Submit"
+    android:layout_alignTop="@id/selectimageaddreport2"
+    android:layout_marginTop="60dp"/>
+    </RelativeLayout>
+</ScrollView>
+</FrameLayout>

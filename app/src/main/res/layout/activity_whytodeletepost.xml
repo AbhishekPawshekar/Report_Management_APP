@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".whytodeletepost">
+<include layout="@layout/toolbar"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/whydeletepost"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:layout_alignLeft="@+id/personaldetailsregistration"
+        android:hint="Reason:"
+        android:layout_alignTop="@+id/personaldetailsregistration"
+        android:textSize="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#BAFFFFFC"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:singleLine="false"
+            android:textSize="10dp"
+            android:textStyle="normal|italic"></com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="Submit"
+        android:id="@+id/submit_post"/>
+</RelativeLayout>

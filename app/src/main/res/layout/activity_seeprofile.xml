@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".seeprofile">
+    <include layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/personaldetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:text="Personal Details:"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nameaccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/personaldetails"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:text="Name:"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/enternameaccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/nameaccount"
+                android:layout_alignTop="@+id/personaldetails"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/useraccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/nameaccount"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:text="User Name:"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/enteruseraccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/useraccount"
+                android:layout_alignTop="@+id/enternameaccount"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textSize="12dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignTop="@+id/useraccount"
+                android:layout_marginTop="40dp"
+                android:background="#818183" />
+
+            <TextView
+                android:id="@+id/communication_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/personaldetails"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:text="Communication Details:"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/phoneaccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/communication_details"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:text="Phone:"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/enterphoneaccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/phoneaccount"
+                android:layout_alignTop="@+id/communication_details"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/emailaccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/phoneaccount"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:text="Email:"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/enteremailaccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/phoneaccount"
+                android:layout_alignTop="@+id/enterphoneaccount"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignTop="@+id/emailaccount"
+                android:layout_marginTop="40dp"
+                android:background="#818183" />
+
+
+            <TextView
+                android:id="@+id/otherdetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/communication_details"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:text="Other Details:"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/departmentaccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/otherdetails"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:text="Department:"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/enterdeptaccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/departmentaccount"
+                android:layout_alignTop="@+id/otherdetails"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/yearaccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/departmentaccount"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:text="Current_Year"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/enteryearaccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/yearaccount"
+                android:layout_alignTop="@+id/enterdeptaccount"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+</RelativeLayout>

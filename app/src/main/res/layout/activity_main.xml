@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/msbte_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/jspmslogo"/>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A PROJECT REPORT ON"
+        android:fontFamily="serif"
+        android:textSize="11dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/msbte_logo"
+        android:layout_marginTop="110dp"
+        />
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ONE PAGE MANAGEMENT REPORT "
+        android:fontFamily="serif"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/text2"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submitted By"
+        android:fontFamily="serif"
+        android:textSize="11dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/text3"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/nameofstudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name Of Student"
+        android:fontFamily="serif"
+        android:textSize="11dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/text4"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/rollno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll No"
+        android:fontFamily="serif"
+        android:textSize="11dp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/text4"
+        android:layout_alignRight="@+id/nameofstudent"
+        android:layout_marginRight="120dp"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/Examseatno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exam Seat No."
+        android:fontFamily="serif"
+        android:textSize="11dp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/nameofstudent"
+        android:layout_alignTop="@+id/text4"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/nameofstudent1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bajare mrunali sunil"
+        android:fontFamily="serif"
+        android:textSize="11dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/nameofstudent"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/rollno1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="04"
+        android:fontFamily="serif"
+        android:textSize="11dp"
+        android:layout_alignTop="@+id/nameofstudent"
+        android:layout_alignRight="@+id/nameofstudent1"
+        android:layout_marginRight="140dp"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/Examseatno1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="284369"
+        android:fontFamily="serif"
+        android:textSize="11dp"
+        android:layout_alignLeft="@+id/nameofstudent1"
+        android:layout_alignTop="@+id/nameofstudent"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/nameofstudent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kudale deepti bharat"
+        android:fontFamily="serif"
+        android:textSize="11dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/nameofstudent1"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/rollno2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="06"
+        android:fontFamily="serif"
+        android:textSize="11dp"
+        android:layout_alignTop="@+id/nameofstudent1"
+        android:layout_alignRight="@+id/nameofstudent1"
+        android:layout_marginRight="140dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/Examseatno2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="284371"
+        android:fontFamily="serif"
+        android:textSize="11dp"
+        android:layout_alignLeft="@+id/nameofstudent1"
+        android:layout_alignTop="@+id/nameofstudent1"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/nameofstudent3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bhosale Gayatri Eknath"
+        android:fontFamily="serif"
+        android:textSize="11dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/nameofstudent2"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/rollno3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="07"
+        android:fontFamily="serif"
+        android:textSize="11dp"
+        android:layout_alignTop="@+id/nameofstudent2"
+        android:layout_alignRight="@+id/nameofstudent1"
+        android:layout_marginRight="140dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/Examseatno3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="284372"
+        android:fontFamily="serif"
+        android:textSize="11dp"
+        android:layout_alignLeft="@+id/nameofstudent1"
+        android:layout_alignTop="@+id/nameofstudent2"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Under the guidance of"
+        android:fontFamily="serif"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/nameofstudent3"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prof.Malgaonkar R.R"
+        android:fontFamily="serif"
+        android:textSize="11dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/text5"
+        android:layout_marginTop="20dp"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/college_logo"
+        android:src="@drawable/jsplogo"
+        android:layout_alignTop="@id/text6"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
+
+</RelativeLayout>

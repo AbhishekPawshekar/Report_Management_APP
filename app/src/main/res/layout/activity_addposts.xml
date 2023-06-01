@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addposts">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <include layout="@layout/toolbar"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post Details:"
+        android:fontFamily="serif"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/simpletext"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/enterpostdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Post Title"
+        android:layout_alignTop="@+id/simpletext"
+        android:textSize="10dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BAFFFFFC"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:textSize="10dp"
+        android:textStyle="normal|italic"></com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <ImageView
+        android:id="@+id/postimage1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#EAE4E4"
+        android:layout_marginTop="100dp"
+        android:layout_alignTop="@+id/enterpostdetails"
+        android:layout_marginRight="130dp"
+        android:layout_alignRight="@+id/productimage2"
+        />
+    <ImageView
+        android:id="@+id/postimage2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#EAE4E4"
+        android:layout_marginTop="100dp"
+        android:layout_alignTop="@+id/enterpostdetails"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageView
+        android:id="@+id/postimage3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#EAE4E4"
+        android:layout_marginTop="100dp"
+        android:layout_alignTop="@+id/enterpostdetails"
+        android:layout_marginLeft="130dp"
+        android:layout_alignLeft="@+id/postimage2"
+        />
+
+    <Button
+        android:id="@+id/selectimage1"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="130dp"
+        android:layout_alignRight="@+id/selectimage2"
+        android:text="Select Image"
+        android:layout_alignTop="@+id/postimage2"
+        android:textSize="9dp"
+        />
+
+    <Button
+        android:id="@+id/selectimage2"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/postimage2"
+        android:layout_marginLeft="20dp"
+        android:text="Select Image"
+        android:textSize="9dp"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/selectimage3"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Select Image"
+        android:layout_marginTop="150dp"
+        android:layout_alignTop="@+id/postimage2"
+        android:layout_marginLeft="130dp"
+        android:layout_alignLeft="@+id/selectimage2"
+        android:textSize="9dp" />
+    <Button
+        android:id="@+id/addmoreimagebutton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/selectimage2"
+        android:layout_marginLeft="20dp"
+        android:text="Add Post"
+        android:textSize="9dp"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"/></RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

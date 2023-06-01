@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:layout_width="wrap_content"
+    android:id="@+id/singleallpostentitiseadmin">
+
+    <RelativeLayout
+        android:id="@+id/shape_layout"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/white_color_background"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/myCardView"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="50dp"
+            android:layout_width="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/profilepicture"
+                android:scaleType="centerCrop"
+                />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/allstudentname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:textSize="13dp"
+            android:layout_marginTop="20dp" />
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/postimageslider"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_alignTop="@+id/description"
+            android:layout_marginTop="25dp"
+            app:placeholder="@drawable/white_color_background" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

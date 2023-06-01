@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quickyes_project1">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/jsplogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/jsplogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Quickyes_project1">
+        <activity
+            android:name=".deletedpostsandreports"
+            android:label="@string/title_activity_deletedpostsandreports"
+            android:theme="@style/Theme.Quickyes_project1.NoActionBar"></activity>
+        <activity
+            android:name=".whytodeletepost"
+            android:label="@string/title_activity_whytodeletepost"
+            android:theme="@style/Theme.Quickyes_project1.NoActionBar" />
+        <activity
+            android:name=".whytodelete"
+            android:label="@string/title_activity_whytodelete"
+            android:theme="@style/Theme.Quickyes_project1.NoActionBar" />
+        <activity
+            android:name=".detailreportsofchoosentopic"
+            android:label="@string/title_activity_detailreportsofchoosentopic"
+            android:theme="@style/Theme.Quickyes_project1.NoActionBar" />
+        <activity
+            android:name=".after_clicking_profilepic_form_all_user"
+            android:label="@string/title_activity_after_clicking_profilepic_form_all_user"
+            android:theme="@style/Theme.Quickyes_project1.NoActionBar" />
+        <activity
+            android:name=".addposts"
+            android:label="@string/title_activity_addposts"
+            android:theme="@style/Theme.Quickyes_project1.NoActionBar" />
+        <activity
+            android:name=".seeprofile"
+            android:label="@string/title_activity_seeprofile"
+            android:theme="@style/Theme.Quickyes_project1.NoActionBar" />
+        <activity
+            android:name=".allreports"
+            android:label="@string/title_activity_allreports"
+            android:theme="@style/Theme.Quickyes_project1.NoActionBar" />
+        <activity
+            android:name=".admin_view"
+            android:label="@string/title_activity_admin_view"
+            android:theme="@style/Theme.Quickyes_project1.NoActionBar" />
+        <activity
+            android:name=".registration_page"
+            android:label="@string/title_activity_registration_page"
+            android:theme="@style/Theme.Quickyes_project1.NoActionBar" />
+        <activity
+            android:name=".login_page"
+            android:label="@string/title_activity_login_page"
+            android:theme="@style/Theme.Quickyes_project1.NoActionBar" />
+        <activity
+            android:name=".mainpage"
+            android:label="@string/title_activity_mainpage"
+            android:theme="@style/Theme.Quickyes_project1.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
